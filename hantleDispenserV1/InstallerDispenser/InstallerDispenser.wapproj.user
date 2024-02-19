@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\juanc\Downloads\Icono.png</Source>
+    <SmallTileSource>C:\Users\juanc\Downloads\Icono.png</SmallTileSource>
+    <MediumTileSource>C:\Users\juanc\Downloads\Icono.png</MediumTileSource>
+    <WideTileSource>C:\Users\juanc\Downloads\Icono.png</WideTileSource>
+    <LargeTileSource>C:\Users\juanc\Downloads\Icono.png</LargeTileSource>
+    <AppIconSource>C:\Users\juanc\Downloads\Icono.png</AppIconSource>
+    <SplashScreenSource>C:\Users\juanc\Downloads\Icono.png</SplashScreenSource>
+    <BadgeLogoSource>C:\Users\juanc\Downloads\Icono.png</BadgeLogoSource>
+    <PackageLogoSource>C:\Users\juanc\Downloads\Icono.png</PackageLogoSource>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+</Project>

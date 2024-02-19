@@ -1,0 +1,85 @@
+﻿<local:AppUserControl x:Class="hantleDispenser.UserControls.MenuUC"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:hantleDispenser.UserControls"
+      mc:Ignorable="d" 
+         d:DesignHeight="1024" d:DesignWidth="1449">
+
+    <Grid   Background="{StaticResource DARKTHEME}">
+        <Grid.RowDefinitions>
+            <RowDefinition d:Height="250" Height="{DynamicResource RowDefinitionHeight}"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition d:Height="250" Height="{DynamicResource RowDefinitionHeight}"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock d:FontSize="35" Grid.Row="0" Text="APP SOPORTES" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="{DynamicResource CommonFontSize}" FontWeight="SemiBold" Foreground="{StaticResource LIGTHCOLOR}" />
+
+            <TextBlock d:FontSize="35" Grid.Row="1" x:Name="txtWelcome" Text="HOLA USUARIO COMO VAMOS PA?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="{DynamicResource CommonFontSize}" Foreground="{StaticResource TITLECOLOR}" FontWeight="SemiBold"/>
+        </Grid>
+
+        <Border d:Margin="20" Margin="{DynamicResource MarginGrid}" Grid.Row="1" CornerRadius="35" Background="{StaticResource PRIMARYCOLOR}" >
+            <Viewbox>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid d:Margin="20" Margin="{DynamicResource MarginGrid}" Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--Inicialize BUTTON-->
+                        <Border  x:Name="ButtonInit" Grid.Column="0"  Style="{StaticResource ButonGenericStyle}" PreviewMouseDown="BtnInicialize">
+                            <TextBlock d:FontSize="35" Text="Inicializar" Style="{StaticResource CommonText}"/>
+                        </Border>
+
+                        <!--Dispend BUTTON-->
+                        <Border  d:Visibility="Visible" x:Name="ButtonDispend" Grid.Column="1" Style="{StaticResource ButonGenericStyle}" Visibility="Collapsed" PreviewMouseDown="BtnDispend">
+                            <TextBlock d:FontSize="35" Text="Dispensar" Style="{StaticResource CommonText}" />
+                        </Border>
+
+                        <!--Dispend quantites  BUTTON-->
+                        <Border  d:Visibility="Visible" x:Name="ButtonDispendQuantities"  Grid.Column="2" Style="{StaticResource ButonGenericStyle}" Visibility="Collapsed" PreviewMouseDown="BtnDispendQuantites">
+                            <TextBlock d:FontSize="35" Text="Dispensar cantidades" Style="{StaticResource CommonText}"/>
+                        </Border>
+                    </Grid>
+
+                    <Grid d:Margin="20" Margin="{DynamicResource MarginGrid}" Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!--Get Sensor BUTTON-->
+                        <Border  x:Name="ButtonGetSensor" Grid.Column="0"  Style="{StaticResource ButonGenericStyle}" PreviewMouseDown="BtnGetSensor">
+                            <TextBlock d:FontSize="35" Text="Obtener sensor" Style="{StaticResource CommonText}"/>
+                        </Border>
+
+                        <!--try Eject BUTTON-->
+                        <Border x:Name="ButtonEject" Grid.Column="1"  Style="{StaticResource ButonGenericStyle}"  PreviewMouseDown="BtntryEject">
+                            <TextBlock d:FontSize="35" Text="Desatascar" Style="{StaticResource CommonText}" />
+                        </Border>
+
+                        <!--Exit  BUTTON-->
+                        <Border  x:Name="ButtonExit" Grid.Column="2"  Style="{StaticResource ButonGenericStyle}"  PreviewMouseDown="BtnExit">
+                            <TextBlock d:FontSize="35" Text="Salir" Style="{StaticResource CommonText}"/>
+                        </Border>
+                    </Grid>
+
+                </Grid>
+            </Viewbox>
+
+        </Border>
+
+    </Grid>
+</local:AppUserControl>

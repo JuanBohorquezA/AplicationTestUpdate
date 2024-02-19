@@ -1,0 +1,6 @@
+MainPackage=C:\Users\juanc\OneDrive\Escritorio\AplicationTestUpdate\hantleDispenserV1\InstallerDispenser\bin\x86\Release\InstallerDispenser_1.0.1.0_x86.appx
+SymbolPackage=C:\Users\juanc\OneDrive\Escritorio\AplicationTestUpdate\hantleDispenserV1\InstallerDispenser\obj\x86\Release\Symbols\InstallerDispenser_1.0.1.0_x86.appxsym
+ResourcePack=C:\Users\juanc\OneDrive\Escritorio\AplicationTestUpdate\hantleDispenserV1\InstallerDispenser\bin\x86\Release\InstallerDispenser_1.0.1.0_scale-100.appx
+ResourcePack=C:\Users\juanc\OneDrive\Escritorio\AplicationTestUpdate\hantleDispenserV1\InstallerDispenser\bin\x86\Release\InstallerDispenser_1.0.1.0_scale-125.appx
+ResourcePack=C:\Users\juanc\OneDrive\Escritorio\AplicationTestUpdate\hantleDispenserV1\InstallerDispenser\bin\x86\Release\InstallerDispenser_1.0.1.0_scale-150.appx
+ResourcePack=C:\Users\juanc\OneDrive\Escritorio\AplicationTestUpdate\hantleDispenserV1\InstallerDispenser\bin\x86\Release\InstallerDispenser_1.0.1.0_scale-400.appx

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://raw.githubusercontent.com/JuanBohorquezA/AplicationTestUpdate/main/Installer/InstallerDispenser.appinstaller"
+	Version="1.0.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="6f63387d-75a6-4637-9090-d35c5d5d390e"
+		Version="1.0.1.0"
+		Publisher="CN=hantleDispenserAplications"
+		Uri="https://raw.githubusercontent.com/JuanBohorquezA/AplicationTestUpdate/main/Installer/InstallerDispenser_1.0.1.0_Test/InstallerDispenser_1.0.1.0_x86.appxbundle" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
