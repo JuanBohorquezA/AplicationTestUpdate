@@ -56,7 +56,7 @@
     <DefaultLanguage>es-ES</DefaultLanguage>
     <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
     <NoWarn>$(NoWarn);NU1702</NoWarn>
-    <PackageCertificateThumbprint>2DAE47873CD76A8D9B0563998B58A0B02E92C6E2</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>310F916FFBABACD0EF4AC68FCC338C368E10D147</PackageCertificateThumbprint>
     <EntryPointProjectUniqueName>..\hantleDispenser\hantleDispenser.csproj</EntryPointProjectUniqueName>
     <GenerateAppInstallerFile>True</GenerateAppInstallerFile>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>

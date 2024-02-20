@@ -7,7 +7,7 @@
 
     Para obtener más información acerca de los archivos de manifiesto del paquete, vea http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="6f63387d-75a6-4637-9090-d35c5d5d390e" Publisher="CN=hantleDispenserAplications" Version="1.0.1.0" ProcessorArchitecture="x86" />
+  <Identity Name="6f63387d-75a6-4637-9090-d35c5d5d390e" Publisher="CN=CERTIFICADOVIRUS:EXE" Version="1.0.2.0" ProcessorArchitecture="x86" />
   <Properties>
     <DisplayName>InstallerDispenser</DisplayName>
     <PublisherDisplayName>hantleDispenserSAS</PublisherDisplayName>

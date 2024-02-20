@@ -1,1 +1,1 @@
-C:\Users\juanc\OneDrive\Escritorio\AplicationTestUpdate\hantleDispenserV1\InstallerDispenser\AppPackages\InstallerDispenser_1.0.1.0_Test\InstallerDispenser_1.0.1.0_x86.appxbundle
+C:\Users\juanc\OneDrive\Escritorio\AplicationTestUpdate\hantleDispenserV1\InstallerDispenser\AppPackages\InstallerDispenser_1.0.2.0_Test\InstallerDispenser_1.0.2.0_x86.appxbundle

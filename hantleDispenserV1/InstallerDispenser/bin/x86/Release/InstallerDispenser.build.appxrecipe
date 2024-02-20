@@ -9,7 +9,7 @@
     <SolutionConfiguration>Release|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6f63387d-75a6-4637-9090-d35c5d5d390e</PackageIdentityName>
-    <PackageIdentityPublisher>CN=hantleDispenserAplications</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=CERTIFICADOVIRUS:EXE</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\juanc\OneDrive\Escritorio\AplicationTestUpdate\hantleDispenserV1\InstallerDispenser\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>

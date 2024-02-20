@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hantleDispenser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6968e1615830d37b3341d55aef634f487ea3ba51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+083e6cb3ac8a44090b1ab383475e867d52b09b08")]
 [assembly: System.Reflection.AssemblyProductAttribute("hantleDispenser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hantleDispenser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

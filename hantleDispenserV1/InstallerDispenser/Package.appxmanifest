@@ -8,8 +8,8 @@
 
   <Identity
     Name="6f63387d-75a6-4637-9090-d35c5d5d390e"
-    Publisher="CN=hantleDispenserAplications"
-    Version="1.0.1.0" />
+    Publisher="CN=CERTIFICADOVIRUS:EXE"
+    Version="1.0.2.0" />
 
   <Properties>
     <DisplayName>InstallerDispenser</DisplayName>
